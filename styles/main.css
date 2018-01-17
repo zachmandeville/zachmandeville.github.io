@@ -2,12 +2,10 @@
 
 @font-face {
 	font-family: PapyrusEF;
-	src: url('/styles/fonts/PapyrusEFRegular.ttf')
-}
+	src: url('/styles/fonts/PapyrusEFRegular.ttf') }
 @font-face {
 	font-family: Interval;
-	src: url('/styles/fonts/Interval/Interval.otf')
-}
+	src: url('/styles/fonts/Interval/Interval.otf') }
 
 /* default stylings of the basic html tags */
 
