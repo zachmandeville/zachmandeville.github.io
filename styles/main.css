@@ -1,0 +1,68 @@
+/* Hello!  Welcome to my Stylesheet! */
+
+@font-face {
+	font-family: PapyrusEF;
+	src: url('/styles/fonts/PapyrusEFRegular.ttf')
+}
+@font-face {
+	font-family: Interval;
+	src: url('/styles/fonts/Interval/Interval.otf')
+}
+
+/* default stylings of the basic html tags */
+
+body,html{
+	margin,padding: 0;
+	border: 0;
+	font-size: 18px;
+	font-family: Interval;
+	color: white; }
+
+p{
+	font-size: 1em;
+	line-height: 1.5em; }
+/* End Default Stylings! */
+
+/* Them Special Stylings, to add to html tags */
+.container{
+	max-width: 960px;
+	margin: auto;
+	padding: 10px; }
+
+.title{
+	font-family: PapyrusEF;
+	color: gold;
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 4em;
+	text-shadow: 0px 4px 4px black; }
+
+.subtitle{
+	font-family: PapyrusEF;
+	font-style: italic;
+	color: gold;
+	margin-top: 0;
+	margin-bottom: 10px;
+	font-size: 2em;
+	line-height: 1em;
+	text-shadow: 0px 4px 4px black; }
+	
+.content{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-family: Interval; }
+
+.centered{
+	text-align: center; }
+/* End them special Stylings! */
+	
+/* Nice Colors */
+
+.capcom-blue-bg{
+	background-color: #188BDE; }
+
+.white{
+	color: white; }
+/* End Nice Colors */
+
+/* Thank you for visiting my stylesheet! */
