@@ -46,6 +46,17 @@ p{
 	font-size: 2em;
 	line-height: 1em;
 	text-shadow: 0px 4px 4px black; }
+
+.section-header{
+	font-style: italic;
+}
+
+.date{
+	font-style: italic;
+	font-size: .9em;
+}
+.article-link{
+	margin: 10px; }
 	
 .content{
 	margin-top: 40px;
@@ -63,6 +74,18 @@ p{
 
 .white{
 	color: white; }
+
+.pink{
+	color: pink; }
+	
+.lavender-bg{
+	background-color: #79798a; }
+	
+.mint-bg{
+	background-color: #78b67d; }
+.gold{
+	color: gold;
+}
 /* End Nice Colors */
 
 /* Thank you for visiting my stylesheet! */
