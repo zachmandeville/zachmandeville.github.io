@@ -10,6 +10,7 @@
 /* default stylings of the basic html tags */
 
 body,html{
+	
 	margin,padding: 0;
 	border: 0;
 	font-size: 18px;
@@ -19,6 +20,9 @@ body,html{
 p{
 	font-size: 1em;
 	line-height: 1.5em; }
+li{
+	margin-top: 1.5em;
+}
 /* End Default Stylings! */
 
 /* Them Special Stylings, to add to html tags */
@@ -89,6 +93,11 @@ p{
 .watermark-image{
 	font-size: 0.7em;
 }
+.article{
+	font-size: 1.5em;
+	line-height: 2em;
+	letter-spacing: -1px;
+}
 /* End them special Stylings! */
 	
 /* Nice Colors */
@@ -111,8 +120,13 @@ p{
 .mint-bg{
 	background-color: #78b67d; }
 .gold{
-	color: gold;
-}
+	color: gold; }
+	
+.peach{
+	color: #FFE5B4; }
+	
+.butterscotch-bg{
+	background-color: #d8b26e; }
 /* End Nice Colors */
 
 /* Thank you for visiting my stylesheet! */
