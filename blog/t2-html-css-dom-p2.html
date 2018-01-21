@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang=en>
+<head>
+    <title>t2 html, css, and dom reflections, pt 2</title>
+    <link rel="stylesheet" href="../styles/main.css" title="Main Stylesheet" type="text/css" media="screen">
+    <meta charset="utf-8">
+</head>
+<body class="peach-bg indigo">
+    <div class="container">
+	<h1>HTML, CSS, and DOM Reflections: pt. 2</h1>
+	<p>These are my continued reflections on our Udacity tutorials, built around the prompts
+	given!</p>
+	<h2>What is Grid Based Design?</h2>
+	<p>GBD is a continuation of the boxifying introduced in part 1.  If the entire website is a
+	series of boxes, then you can use pleasant math to better arrange these boxes.  By seeing
+	the site as one big grid, that can be broken into 1/12's, 1/2's, and 1/4's, you can make
+	nice layouts as easily as you'd layout a newspaper or zine.  So you create rows, and column
+	class tags (along with a grid flex tag) and then use these to make layouts that follow a
+	predictable and consistent structure.</p>
+	<h2>What is all the hype about Responsive Design?</h2>
+	<p>Responsive Design is the acknowledgement that you should make your web pages for
+	everyone, but that everyone uses different kinds of screens.  We are no longer in a world
+	where everyone has a home desktop with a specifically sized monitor, and you can create html
+	for just that browser.  Now, folks will be visiting your site through their phones, their
+	tablets, their raspberry pi's connected to a salvaged gamegear screen, etc.  Responsive
+	Design is a method to make sure the important aspects of yoru page are visible no matter the
+	screen through which someone views them.</p>
+	<p>From a humanist/progressive perspective, responsive design is important because desktop
+	screens assume a class privilege.  Many people only have access to the web through their
+	phones, especially in developing countries.  By designing for these situations, you can
+	ensure that your site is accessible to all regardless of class or means.</p>
+	<p>sidenote:  this is explored in depth in the wonderful site: <a
+	 href="https://resilientwebdesign.com">resilientwebdesign.com</a></p>
+	<h2>What is Semantic Structure?</h2>
+	<p>Semantic structure is a philosophy/method for structuring the bare HTML of your webpage,
+	so that it's design can be read by humans as easily as it's read by machines.  This comes
+	from having clear titles for your tags like h1, h2, p, etc.--and using them as their names
+	imply (so like doing use the h1 tag to surround an image.)  Semantic also means detaching
+	the style of the page from the structure of the page.  By having an external stylesheeet
+	that holds the layout instructions, instead of placing them inline to the html tag, you can
+	better ensure that someone can read the content of your site in an accessible way regardless
+	of what their browser can handle (if a browser doesn't udnerstand what your class means,
+	it'll just ignore it, but still display the raw html.  So if the raw html is semantically
+	structured, it will be readable without any fancy classes.)
+	<h2>Any Other Points you find interesting?</h2>
+	<p>The latter half of the Udacity tutorial introduced a couple conventions that I found
+	kinda worrying: using google for your fonts and for normalizing your CSS.  It's worrying to
+	me for a couple reasons: 
+	<ol>
+	    <li><b>It creates an unnecessary dependency on other companies</b>
+		<p>If your font only exists on another site, that is being called when the page is
+		loaded, then you need that site to be up for your font to load.  To me, this makes
+		the entire site more fragile and could potentially cause it to not load (or load
+		slowly).  It also means you have a vested interest in some other company or server
+		staying functional, and when that company is problematic then it puts an unpleasant
+		dynamic upon your site.  Google is big enough that it'll stay online for a while,
+		but if you start to rely upon site upon site upon site for your frameworks, fonts,
+		placeholders, etc. then if on aspect of them shuts down your entire site is
+		affected.  I'm not keen on that.</p>
+	    <li><b>It's establishing a relationship that your site visitor is not aware of (and may
+		    disagree with).</b>
+		<p>Your site visitor is coming to <em>your site</em>, and assumes they are only
+		interacting then with you.  But if you are building your site based on things
+		imported from other companies, then these companies are also being made aware of
+		your visitor--and may have their own designs upon them.  This is less worrying with
+		CSS, but becomes a huge issue with javascript as it allows these companies to track
+		people who may not want to be tracked(and are often not aware they <em>are</em>
+		being tracked).  We have a responsibility to be upfront and caring to our visitors,
+		including maintaining their privacy and dignity.</p>
+	</ol>
+    </div>
+</body>
+</html>

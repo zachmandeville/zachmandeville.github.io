@@ -122,8 +122,12 @@ li{
 .gold{
 	color: gold; }
 	
-.peach{
-	color: #FFE5B4; }
+.peach-bg{
+	background-color: #FFE5B4; }
+
+.indigo{
+	color: indigo;
+}
 	
 .butterscotch-bg{
 	background-color: #d8b26e; }
