@@ -11,10 +11,10 @@ body{
 	font-size: 20px; }
 
 h1{
-	font-size: 2.5em;
-}
+	font-size: 2.5em; 
+	line-height: 4em;}
 
-.grid-test{
+.wrapper{
 	display: grid;
 	height: 100vh;
 	grid-template-rows: 15% 1fr 15%;
@@ -33,9 +33,7 @@ h1{
 	justify-content: center;
 	align-items: center;
 	flex-direction: column; 
-	font-size: 2rem;
-	;}
-
+	font-size: 2rem; }
 	
 .bordered{
 	border: 1px solid black; }
@@ -50,10 +48,8 @@ h1{
 .title{
 	padding-top: 10px;
 	font-size: 3em;
+	line-height: 4em;
 	letter-spacing: 1px; }
-
-.centered{
-	text-align: center; }
 	
 .content-test{
 	grid-template-rows: 1fr; }
