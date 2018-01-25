@@ -2,14 +2,17 @@
 ----------------*/
 @font-face{
 	font-family: MuseumBibleRegular;
-	src: url('/styles/fonts/museum/MuseumBible.otf') }
+	src: url('../styles/fonts/museum/MuseumBible.otf') }
 
 body{
 	margin: 0;
 	padding: 0;
 	font-family: MuseumBibleRegular;
 	font-size: 20px; }
-
+div{
+	margin: 0;
+	padding: 0;
+}
 h1{
 	font-size: 2.5em; }
 
@@ -18,6 +21,10 @@ h1{
 	height: 100vh;
 	grid-template-rows: 20% 1fr 20%;
 	padding: 10px; }
+	
+.wrapper.blog{
+	grid-template-rows: 20% 1fr 10%;
+}
 
 .center-block{
 	display: grid;
@@ -26,6 +33,14 @@ h1{
 	margin: auto;
 	text-align: center;
 	grid-template-rows: 20% 1fr 1fr 1fr 20%; }
+
+.blog-block{
+	display: grid;
+	height: 100%;
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
 
 .page-link{
 	display: flex;
@@ -57,8 +72,42 @@ h1{
 	text-align: center;
 	letter-spacing: 0px; }
 	
+.article-link{
+	height: 75px;
+	margin: 0.5em;
+	display: grid;
+	width: 100%;
+	text-decoration: none;
+	background-color: white;
+	grid-template-columns: 90% 10%;
+}
 
+.article-title{
+	text-align: left;
+	display: flex;
+    flex-direction: row;
+    height: 100%;
+    font-size: 100%;
+	justify-content: flex-start;
+	padding-left: 1em;
+	align-self: center;
+}
+.article-type{
+	height: 25%;
+	 }
+.article-type.cultural{
+	background-color: red;
+}
 
+.article-type.technical{
+	background-color: green;
+}
+
+.legend{
+	text-align: center;
+	font-size: 1em;
+	font-style: italic;
+}
 /* Colors
 --------*/
 .indigo{
@@ -68,10 +117,10 @@ h1{
 	background-color: indigo; }
 	
 .indigo-light-bg{
-	background-color: rgba(76,  0,  130, 0.7); }
+	background-color: rgba(76,    0,    130, 0.96); }
 
 .indigo-lighter-bg{
-	background-color: rgba(76,  0,  130, 0.51); }
+	background-color: rgba(75,    0,    130, 0.88); }
 		
 .peach-bg{
 	background-color: #ffe5b4; }
@@ -93,4 +142,8 @@ h1{
 	
 	.title{
 		font-size: 4em; }
+	
+	.blog-block{
+		width: 50%;
+	}
 }
