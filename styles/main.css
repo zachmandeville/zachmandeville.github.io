@@ -11,13 +11,12 @@ body{
 	font-size: 20px; }
 
 h1{
-	font-size: 2.5em; 
-	padding-top: 20px; }
+	font-size: 2.5em; }
 
 .wrapper{
 	display: grid;
 	height: 100vh;
-	grid-template-rows: 15% 1fr 15%;
+	grid-template-rows: 20% 1fr 20%;
 	padding: 10px; }
 
 .center-block{
