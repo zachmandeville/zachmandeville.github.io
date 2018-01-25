@@ -1,1 +1,108 @@
+/* The Good Font
+----------------*/
+@font-face{
+	font-family: MuseumBibleRegular;
+	src: url('styles/fonts/museum/MuseumBible.otf') }
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: MuseumBibleRegular;
+	font-size: 20px; }
+
+h1{
+	font-size: 2.5em;
+}
+
+.grid-test{
+	display: grid;
+	height: 100vh;
+	grid-template-rows: 15% 1fr 15%; }
+
+.circle-splash{
+	display: grid;
+	height: 100%;
+	grid-template-rows: 15% 1fr 15%; }
+
+.circle{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column; 
+	;}
+
+.top-circle{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: center;
+	text-align: center;
+	width: 60%;
+	height: 48%;
+	text-decoration: none;
+	border-radius: 180px 180px 0px 0px; }
+
+.bottom-circle{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: center;
+	text-align: center;
+	width: 60%;
+	height: 48%;
+	border-radius: 0px 0px 180px 180px; }
+	
+.bordered{
+	border: 1px solid black; }
+
+.header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%; }
+
+.title{
+	padding-top: 20px;
+	font-size: 4em;
+	line-height: 8em;
+	letter-spacing: 1px; }
+
+.centered{
+	text-align: center; }
+	
+.content-test{
+	grid-template-rows: 1fr; }
+
+/* Colors
+--------*/
+.indigo{
+	color: indigo; }
+	
+.indigo-bg{
+	background-color: indigo; }
+	
+.indigo-light-bg{
+	background-color: #670b7a; }
+		
+.peach-bg{
+	background-color: #ffe5b4; }
+
+.peach{
+	color: #ffe5b4; }
+
+/* Media Queries baby!
+--------------------*/
+
+@media only screen (min-width: 500px) {
+	.top-circle{
+		width: 80%;
+		height: 40%;
+		border-radius: 180px 180px 0px 0px;	}
+	
+	.bottom-circle{
+		width: 80%;
+		height: 80%;
+		border-radius: 180px 180px 0px 0px;	}
+}
 
