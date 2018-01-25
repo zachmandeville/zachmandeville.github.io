@@ -37,8 +37,8 @@ h1{
 	align-items: center;
 	flex-direction: center;
 	text-align: center;
-	width: 60%;
-	height: 48%;
+	width: 80%;
+	height: 35%;
 	text-decoration: none;
 	border-radius: 180px 180px 0px 0px; }
 
@@ -48,8 +48,8 @@ h1{
 	align-items: center;
 	flex-direction: center;
 	text-align: center;
-	width: 60%;
-	height: 48%;
+	width: 80%;
+	height: 35%;
 	border-radius: 0px 0px 180px 180px; }
 	
 .bordered{
@@ -63,9 +63,7 @@ h1{
 	width: 100%; }
 
 .title{
-	padding-top: 20px;
-	font-size: 4em;
-	line-height: 8em;
+	font-size: 2.5em;
 	letter-spacing: 1px; }
 
 .centered{
