@@ -19,38 +19,22 @@ h1{
 	height: 100vh;
 	grid-template-rows: 15% 1fr 15%; }
 
-.circle-splash{
+.center-block{
 	display: grid;
 	height: 100%;
-	grid-template-rows: 15% 1fr 15%; }
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	grid-template-rows: 30% 1fr 1fr 1fr 30%; }
 
-.circle{
+.page-link{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column; 
+	font-size: 2rem;
 	;}
 
-.top-circle{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: center;
-	text-align: center;
-	width: 80%;
-	height: 35%;
-	text-decoration: none;
-	border-radius: 180px 180px 0px 0px; }
-
-.bottom-circle{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: center;
-	text-align: center;
-	width: 80%;
-	height: 35%;
-	border-radius: 0px 0px 180px 180px; }
 	
 .bordered{
 	border: 1px solid black; }
@@ -60,10 +44,12 @@ h1{
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	padding-top: 10px;
 	width: 100%; }
 
 .title{
-	font-size: 2.5em;
+	padding-top: 10px;
+	font-size: 3em;
 	letter-spacing: 1px; }
 
 .centered{
@@ -87,7 +73,8 @@ h1{
 	background-color: #ffe5b4; }
 
 .peach{
-	color: #ffe5b4; }
+	color: #ffe5b4;
+	text-decoration: none; }
 
 /* Media Queries baby!
 --------------------*/
