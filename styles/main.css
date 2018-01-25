@@ -73,4 +73,12 @@ h1{
 
 /* Media Queries baby!
 --------------------*/
-
+@media (min-width: 599px){
+	.center-block{
+	display: grid;
+	height: 100%;
+	width: 30%;
+	margin: auto;
+	text-align: center;
+	grid-template-rows: 20% 1fr 1fr 1fr 20%; }
+}
