@@ -17,15 +17,16 @@ h1{
 .grid-test{
 	display: grid;
 	height: 100vh;
-	grid-template-rows: 15% 1fr 15%; }
+	grid-template-rows: 15% 1fr 15%;
+	padding: 10px; }
 
 .center-block{
 	display: grid;
 	height: 100%;
-	width: 50%;
+	width: 80%;
 	margin: auto;
 	text-align: center;
-	grid-template-rows: 30% 1fr 1fr 1fr 30%; }
+	grid-template-rows: 25% 1fr 1fr 1fr 25%; }
 
 .page-link{
 	display: flex;
@@ -44,7 +45,6 @@ h1{
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	padding-top: 10px;
 	width: 100%; }
 
 .title{
