@@ -2,7 +2,7 @@
 ----------------*/
 @font-face{
 	font-family: MuseumBibleRegular;
-	src: url('styles/fonts/museum/MuseumBible.otf') }
+	src: url('/styles/fonts/museum/MuseumBible.otf') }
 
 body{
 	margin: 0;
@@ -93,16 +93,4 @@ h1{
 
 /* Media Queries baby!
 --------------------*/
-
-@media only screen (min-width: 500px) {
-	.top-circle{
-		width: 80%;
-		height: 40%;
-		border-radius: 180px 180px 0px 0px;	}
-	
-	.bottom-circle{
-		width: 80%;
-		height: 80%;
-		border-radius: 180px 180px 0px 0px;	}
-}
 
