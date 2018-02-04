@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="minesweeper.css">
+    <script src="lib/tests.js"></script>
+    <script src="lib/lib.js"></script>
+    <script src="minesweeper.js"></script>
+    <audio id="winning-song">
+	<source src="./sounds/winning-song.mp3"></source>
+	<source src="./sounds/winning-song.ogg"></source>
+    </audio>
+    <audio id="losing-song">
+	<source src="./sounds/losing-song.mp3"></source>
+	<source src="./sounds/losing-song.mp3"></source>
+    </audio>
+  </head>
+  <body>
+    <div class="title">
+        <pre>
+  __  __ _                                          
+ |  \/  (_)_ _  ___ ____ __ _____ ___ _ __  ___ _ _ 
+ | |\/| | | ' \/ -_|_-< V  V / -_) -_) '_ \/ -_) '_|
+ |_|  |_|_|_||_\___/__/\_/\_/\___\___| .__/\___|_|  
+                                     |_|            
+        </pre>	
+    </div>
+    <div id="message"></div>
+    <input type="button" value="Start Over" onClick="window.location.reload()">  
+    <div id="notes"></div>
+    <div class="board"></div>
+    <div id="instructions">
+	<h2>How to Play</h2>
+        <p>Beneath each square in the grid above lies either a "friendly space" or a mine.  Friendly spaces want to see the light of day; mines blow you up.</p>
+	<p><strong>The Objective! </strong></p><p> Uncover all friendly spaces, and mark all mines with an
+	exclamation point.</p>
+	<h3>Controls</h3>
+	<p><strong>Left Mouse Click</strong> Uncover a square.  IF it's a mine, you blow up.  If the square is friendly, it will have a number stating how many mines this square touches.</p>
+	<p><strong>Right Mouse Click</strong> Marks a space with an exclamation point.  This is good for remembering where the mines be.</p>
+
+</body>
+</html>
