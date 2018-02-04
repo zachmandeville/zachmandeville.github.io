@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', startGame)
 // Variables for size and difficulty of board.
 var board = {'cells':[]};
 var size = 6;
-var maxbomb = 4;
+var maxbomb = 0;
 
 function makeBoard (size, maxbomb) {
 //create cell objects with values and add to cells array. 
