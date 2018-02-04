@@ -59,7 +59,7 @@ function checkForWin () {
     else if (board.cells[i].isMine == false  && board.cells[i].hidden)
       return; 
   }
-  lib.displayMessage('You win!'); 
+  lib.displayMessage('Hello, Angelica.  I love you!'); 
   var song = document.getElementById('winning-song')
   song.play()
 }
