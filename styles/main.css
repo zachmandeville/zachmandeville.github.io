@@ -108,6 +108,9 @@ h1{
 .article-type.technical{
 	background-color: #8ae68a; }
 
+.bullet-free{
+    list-style-type: none; }
+
 .legend{
 	text-align: center;
 	font-size: 1em;
