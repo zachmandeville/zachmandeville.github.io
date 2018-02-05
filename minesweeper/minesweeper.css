@@ -25,6 +25,12 @@ input[type=button]{
     min-height: 41px;
     font-size: 1.1em; }
 
+.secret{
+    visibility: hidden;
+    height: 0; }
+
+    
+
 #instructions{
     max-width: 500px;
     margin-left: auto;

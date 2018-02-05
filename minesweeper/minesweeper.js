@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', startGame)
 // Variables for size and difficulty of board.
 var board = {'cells':[]};
 var size = 6;
-var maxbomb = 0;
+var maxbomb = 10;
 
 function makeBoard (size, maxbomb) {
 //create cell objects with values and add to cells array. 
@@ -59,9 +59,26 @@ function checkForWin () {
     else if (board.cells[i].isMine == false  && board.cells[i].hidden)
       return; 
   }
-  lib.displayMessage('Hello, Angelica.  I love you!'); 
-  var song = document.getElementById('winning-song')
+  lib.displayMessage('You did it!  You won!'); 
+  playSong('winning-song')
+  showPlayAgain()
+}
+
+function showPlayAgain ()  {
+    var button = document.getElementById('playAgain')
+    button.classList.toggle('secret')
+}
+
+function playSong (id) {
+  var song = document.getElementById(id)
   song.play()
+}
+
+function showInstructions () {
+    var instructions = document.getElementById('instructions')
+    var button = document.getElementById('instructions-button')
+    instructions.classList.toggle('secret')
+    button.classList.toggle('secret')
 }
 
 function countSurroundingMines (cell) {

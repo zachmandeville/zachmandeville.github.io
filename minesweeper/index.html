@@ -26,16 +26,21 @@
         </pre>	
     </div>
     <div id="message"></div>
-    <input type="button" value="Start Over" onClick="window.location.reload()">  
+    <div id="playAgain" class='secret'>
+    <input type="button" value="Play Again!" onClick="window.location.reload()">  
+    </div>
     <div id="notes"></div>
     <div class="board"></div>
-    <div id="instructions">
+    <div id="instructions-button">
+    <input type="button" value="Show Instructions" onClick="showInstructions()">  
+    </div>
+    <div id="instructions" class="secret">
 	<h2>How to Play</h2>
         <p>Beneath each square in the grid above lies either a "friendly space" or a mine.  Friendly spaces want to see the light of day; mines blow you up.</p>
 	<p><strong>The Objective! </strong></p><p> Uncover all friendly spaces, and mark all mines with an
 	exclamation point.</p>
 	<h3>Controls</h3>
-	<p><strong>Left Mouse Click</strong> Uncover a square.  IF it's a mine, you blow up.  If the square is friendly, it will have a number stating how many mines this square touches.</p>
+	<p><strong>Left Mouse Click</strong> Uncover a square.  IF it is a mine, you blow up.  If the square is friendly, it will have a number stating how many mines this square touches.</p>
 	<p><strong>Right Mouse Click</strong> Marks a space with an exclamation point.  This is good for remembering where the mines be.</p>
 
 </body>
