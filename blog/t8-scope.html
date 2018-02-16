@@ -27,10 +27,10 @@
       refers to the extent, across yr code, in which that variable is known.  If you assign a global
       variable, then every bit of your code will know what that variable means.  If you declare a variable from within a function, though, then it's meaning is local to that function, and thus only known by it.</p>
       <p>For example, that above variable theCoolestThing is <em>well</em>-known within my household.  If I mention theCoolestThing, my wife knows exactly what I mean.  But if I were to reference that to anyone outside of my house, they would likely have no clue what I mean (or maybe have their own local definitions of that variable).  In other words, you could display the code as:</p>
-      <code><pre>
+      <pre><code>
       function myHouse () {
         var theCoolestThing = 'that thor scene with the bridge, zep, and lightning.'
-      }</pre></code>
+      }</code></pre>
       <p>This is a local variable, known only to the function that is my house.</p>
       <p>Because a global variable will be known, and can be affected by, any function in your code, it is good practice to only declare a global variable when absolutely necessary.  Otherwise, you can create confusing scenarios where there's competing opinions on the meaning of that thing, which affects all other code around it.  By maintaining local meaning, you can make sure the function and all it's variables work as you intended, and are not being affected by any larger opinion.</p>
     </div>
