@@ -89,6 +89,10 @@ h1{
 	grid-template-columns: 90% 10%;
 }
 
+code{
+  word-wrap: break-word;
+  color: red; }
+  
 .article-title{
 	text-align: left;
 	display: flex;
